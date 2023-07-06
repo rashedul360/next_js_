@@ -5,6 +5,7 @@ const getSinglePost = async (id: string) => {
  const post = await data.json();
  return post;
 };
+
 const Page = async ({
  params,
 }: {
